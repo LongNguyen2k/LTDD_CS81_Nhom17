@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:background="@color/design_default_color_background"
+                app:title="CUA HANG BAN DIEN THOAI"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize">
+            </androidx.appcompat.widget.Toolbar>
+            <ViewFlipper
+                android:id="@+id/viewflipper"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/teal_200">
+              <!--  <ImageView
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/logoapple"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/logooppo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+                <ImageView
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/logosamsung"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                    !-->
+            </ViewFlipper>
+            <LinearLayout
+                android:background="#5992d2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+
+                    android:id="@+id/txtview1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sản Phẩm mới nhất"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/design_default_color_error"
+                    android:layout_margin="5dp"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclelistView"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </androidx.recyclerview.widget.RecyclerView>
+
+            </LinearLayout>
+        </LinearLayout>
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigationview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
+            <ListView
+                android:id="@+id/listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.navigation.NavigationView>
+    </androidx.drawerlayout.widget.DrawerLayout>
+</LinearLayout>

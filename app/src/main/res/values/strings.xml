@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QuanLyBanDienThoai</string>
+    <string name="title_activity_thong_tin">Map</string>
+
+    <string name="err_name">Please enter valid name</string>
+    <string name="err_tel">Please enter valid phone number</string>
+    <string name="err_email">Please enter valid email</string>
+    <string name="err_noted">Please input noted carefully</string>
+
+</resources>

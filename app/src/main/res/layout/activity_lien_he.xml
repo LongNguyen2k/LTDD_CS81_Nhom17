@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/ToolbarLienHe"
+        app:titleTextColor="#FFFFFF"
+        android:background="#132EDC"
+        app:title="Thông Tin"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/flower"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textColor="#fafafa"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:text="Liên Hệ với  về chúng tôi"
+            android:textSize="30sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:gravity="center"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:drawableLeft="@drawable/man"
+                android:layout_margin="30dp"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:text="Thông Tin Nhóm 17 : Quản Lý Bán Điện Thoại "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:gravity="center"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:drawableLeft="@drawable/emal3"
+                android:layout_margin="30dp"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:text="Số Điện Thoại 0587046936"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+</LinearLayout>
