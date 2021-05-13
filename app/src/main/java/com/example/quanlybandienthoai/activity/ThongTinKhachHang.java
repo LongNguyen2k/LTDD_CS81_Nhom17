@@ -55,7 +55,7 @@ public class ThongTinKhachHang extends AppCompatActivity {
         awsValidate.addValidation(ThongTinKhachHang.this,R.id.edt_TenKH,"[a-zA-Z0-9\\s]+",R.string.err_name);
         awsValidate.addValidation(ThongTinKhachHang.this,R.id.edt_SoDienThoai, RegexTemplate.TELEPHONE,R.string.err_tel);
         awsValidate.addValidation(ThongTinKhachHang.this,R.id.edt_Email , Patterns.EMAIL_ADDRESS,R.string.err_email);
-        awsValidate.addValidation(ThongTinKhachHang.this,R.id.edt_GhiChu ,"[a-zA-Z0-9,.\\s]+",R.string.err_noted);
+        awsValidate.addValidation(ThongTinKhachHang.this,R.id.edt_GhiChu ,"[a-zA-Z0-9,.\\/\\s]+",R.string.err_noted);
 
         CanCel();
         EventButtonXacNhan();

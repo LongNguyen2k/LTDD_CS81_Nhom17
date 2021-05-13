@@ -12,7 +12,7 @@
         android:layout_height="?attr/actionBarSize"
         app:titleTextColor="#FFFFFF"
         android:background="#00AFFF"
-        app:title="Dòng Điện thoại Apple">
+        app:title="Dòng Điện thoại SamSung">
 
 
     </androidx.appcompat.widget.Toolbar>
