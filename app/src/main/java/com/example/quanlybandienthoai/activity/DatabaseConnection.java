@@ -68,8 +68,8 @@ public class DatabaseConnection extends SQLiteOpenHelper {
             // đây là cách để update database
             else {
 
-              //  activity.deleteDatabase(databaseName);
-            //  initDatabase(activity, databaseName);
+                activity.deleteDatabase(databaseName);
+             initDatabase(activity, databaseName);
             }
 
         } catch (IOException e) {

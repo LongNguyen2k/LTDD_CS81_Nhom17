@@ -32,7 +32,7 @@ public class ChiTietDienThoai extends AppCompatActivity {
     TextView tvChip , tvRam , tvBoNhoTrong , tvPIN , tvMoTaChiTiet;
     Spinner spinnerChiTiet;
     Button btnThemVaoGio;
-    // Thong Tin Chi Tiet Dien Thoai 
+    // Thong Tin Chi Tiet Dien Thoai
 
     int id  = 0 ;
     String tenDienThoai = "";
