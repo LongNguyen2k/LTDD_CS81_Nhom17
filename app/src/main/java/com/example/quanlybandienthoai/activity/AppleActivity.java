@@ -166,57 +166,6 @@ public class AppleActivity extends AppCompatActivity {
 
     }
 
-//    public class mHandler extends Handler
-//    {
-//        @Override
-//        public void handleMessage(@NonNull Message msg) {
-//            switch (msg.what)
-//            {
-//                case 0:
-//                    lvSamSung.addFooterView(footerView);
-//                    break;
-//                case 1:
-//                    GetDataApple();
-//                    isLoading = false;
-//                    break;
-//
-//            }
-//            super.handleMessage(msg);
-//        }
-//    }
-//
-//    public class ThreadData extends Thread
-//    {
-//        @Override
-//        public void run() {
-//            mHandler.sendEmptyMessage(0);
-//            try {
-//                Thread.sleep(3000);
-//            } catch (InterruptedException e) {
-//                e.printStackTrace();
-//            }
-//            Message message = mHandler.obtainMessage(1);
-//            mHandler.sendMessage(message);
-//            super.run();
-//        }
-//    }
 
-   // private void LoadMoreData() {
-//        lvSamSung.setOnScrollListener(new AbsListView.OnScrollListener() {
-//            @Override
-//            public void onScrollStateChanged(AbsListView view, int scrollState) {
-//
-//            }
-//
-//            @Override
-//            public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
-//                if(firstVisibleItem + visibleItemCount == totalItemCount  && totalItemCount != 0 && isLoading == false)
-//                {
-//
-//                }
-//
-//            }
-//        });
-//    }
 
 }
