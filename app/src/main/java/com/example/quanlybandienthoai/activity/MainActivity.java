@@ -198,25 +198,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public Bitmap getBitMapFromURL(String src)
-    {
-        try {
-            URL url = new URL(src);
-            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-            connection.setDoInput(true);
-            connection.connect();
-            InputStream  inputStream = connection.getInputStream();
-            Bitmap myBitMap = BitmapFactory.decodeStream(inputStream);
-            return myBitMap;
 
-
-        }
-        catch (Exception ex)
-        {
-            ex.printStackTrace();
-            return null;
-        }
-    }
 
     private void CatchOnItemListView() {
         listViewManHinhChinh.setOnItemClickListener(new AdapterView.OnItemClickListener() {
