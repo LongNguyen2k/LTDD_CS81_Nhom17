@@ -160,8 +160,7 @@ public class AppleActivity extends AppCompatActivity {
         appleAdapter = new AppleAdapter(getApplicationContext(),arrayListApple);
         lvApple.setAdapter(appleAdapter);
 
-        //LayoutInflater layoutInflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
-        //footerView = layoutInflater.inflate(R.layout.progressbar,null);
+  
 
 
     }
