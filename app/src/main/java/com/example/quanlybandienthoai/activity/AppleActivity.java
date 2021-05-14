@@ -160,7 +160,7 @@ public class AppleActivity extends AppCompatActivity {
         appleAdapter = new AppleAdapter(getApplicationContext(),arrayListApple);
         lvApple.setAdapter(appleAdapter);
 
-  
+
 
 
     }
