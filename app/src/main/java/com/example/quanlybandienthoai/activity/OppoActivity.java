@@ -76,7 +76,7 @@ public class OppoActivity extends AppCompatActivity {
     }
 
 
-    // 2 function để hiện thị nút giỏ hàng và bấm vào giỏ hàng chuyển vào trang giỏ hàng .
+    // 2 function để hiện thị nút giỏ hàng và bấm vào giỏ hàng chuyển vào trang giỏ hàng .sdasda
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu,menu);
