@@ -196,7 +196,7 @@ public class MainActivity extends AppCompatActivity {
             hangDTAdapter.notifyDataSetChanged();
             database.close();
     }
- 
+
 
     public Bitmap getBitMapFromURL(String src)
     {
