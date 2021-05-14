@@ -69,7 +69,7 @@ public class DatabaseConnection extends SQLiteOpenHelper {
             else {
 
               //  activity.deleteDatabase(databaseName);
-             // initDatabase(activity, databaseName);
+            //  initDatabase(activity, databaseName);
             }
 
         } catch (IOException e) {
