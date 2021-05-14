@@ -196,33 +196,7 @@ public class MainActivity extends AppCompatActivity {
             hangDTAdapter.notifyDataSetChanged();
             database.close();
     }
-    private void viewComponentToolbar()  {
-
-      /*  filepath = "src/main/res/drawable/house.jpg";
-        File imagefile = new File(filepath);
-        FileInputStream fis = new FileInputStream(imagefile);
-        Bitmap bm = BitmapFactory.decodeStream(fis);
-
-
-       */
-
-        Bitmap bm = getBitMapFromURL("https://png2.cleanpng.com/sh/768b32ab7b5929822529ab8d0524fbd0/L0KzQYm3UsA2N6N5j5H0aYP2gLBuTfhwdZYyeeJqcoTwdbB7Tflkd15rhNN9LXTog7rujr1qa5DzRdVxcnn2hL7ok71pd55qReJ3Zz3pgrbsTfRwf59xh9NtLUXkR4m9WcM6PmNpetQELkezQIW5VMI6OWY2T6o9MEa8R4W3VMkveJ9s/kisspng-home-apartment-ico-flat-design-icon-christmas-home-png-free-download-5a78693962dbb9.7004242915178406974049.png");
-
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        bm.compress(Bitmap.CompressFormat.PNG, 100, baos);
-        byte[] b = baos.toByteArray();
-
-        mangHangDT.add(3,new HangDT(0,"Trang Chính",b));
-            /*
-            "https://png.pngtree.com/png-clipart/20201208/original/pngtree-phone-icon-in-solid-circle-png-image_5552270.jpg"
-            "https://png.pngtree.com/png-clipart/20190705/original/pngtree-vector-business-man-icon-png-image_4184669.jpg"
-
-             */
-        //  mangHangDT.add(4,new HangDT(0,"Liên Hệ " , null));
-        //  mangHangDT.add(5,new HangDT(0 , "Thông Tin " , null));
-        hangDTAdapter.notifyDataSetChanged();
-
-    }
+ 
 
     public Bitmap getBitMapFromURL(String src)
     {
