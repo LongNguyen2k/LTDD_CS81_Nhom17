@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         app:titleTextColor="#FFFFFF"
-        android:background="#00AFFF"
+        android:background="#6196AE"
         app:title="Dòng Điện thoại SamSung">
 
 
