@@ -155,7 +155,7 @@ public class OppoActivity extends AppCompatActivity {
         oppoadapter = new OPPOADAPTER(getApplicationContext(),arrayListOOPO);
         lvOOPO.setAdapter(oppoadapter);
 
-        
+
 
 
     }
