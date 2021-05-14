@@ -43,11 +43,7 @@ public class OppoActivity extends AppCompatActivity {
     byte[] hinhAnh;
 
 
-    // loading progress bar
-    // View footerView;
-    //   boolean isLoading = false;
-    //  mHandler mHandler;
-    //  boolean limitData;
+
 
 
     @Override
@@ -159,8 +155,7 @@ public class OppoActivity extends AppCompatActivity {
         oppoadapter = new OPPOADAPTER(getApplicationContext(),arrayListOOPO);
         lvOOPO.setAdapter(oppoadapter);
 
-        //LayoutInflater layoutInflater = (LayoutInflater) getSystemService(LAYOUT_INFLATER_SERVICE);
-        //footerView = layoutInflater.inflate(R.layout.progressbar,null);
+        
 
 
     }
